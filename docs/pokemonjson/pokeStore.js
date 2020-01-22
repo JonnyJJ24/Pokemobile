@@ -6,7 +6,7 @@ let pokeStore = [{
 },
 {
     "item" : "Potion",
-    "hp": 100,
+    "hp": 20,
     "price" : "300",
     "amount": 0
 },
