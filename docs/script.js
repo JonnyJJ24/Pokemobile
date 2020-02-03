@@ -186,7 +186,7 @@ function onload(){
 
 function ATDL(message){
     //alert(message);
-    console.re.log(message);
+    console.log(message);
     var log = document.createElement("P"); /*innerHTML = DevLog*/
     log.innerHTML = message;
     document.getElementById('Text').appendChild(log);
@@ -337,5 +337,3 @@ function NumberChange(opt0,opt1,vaar,GO){
     var elem = document.getElementById('Text');
     elem.scrollTop = elem.scrollHeight;
 }
-
-
